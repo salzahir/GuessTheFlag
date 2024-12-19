@@ -84,7 +84,7 @@ struct FlagEffectModifier: ViewModifier {
         // Dim unselected flags to 25% opacity when a flag is selected
         .scaleEffect(
             selectedFlag != number && selectedFlag != nil
-            ? CGSize(width: 0.25, height: 0.25)
+            ? CGSize(width: 0.75, height: 0.75)
             : CGSize(width: 1, height: 1)
         )
         // Dim unselected flags to 25% opacity when a flag is selected
